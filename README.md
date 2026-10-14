@@ -4,9 +4,12 @@ Senior consolidation accountant. I run the monthly and quarterly close for a
 group of 60+ legal entities under US GAAP, and I build tools for the parts of
 it that shouldn't need a person, plus the queue that gets the rest to one.
 
-Both projects predate their public repos. I rebuilt their git histories when I
-published them in Oct 2026, so commit dates before then are approximate; each
-README says how.
+Both projects predate their public repos; their git histories don't. I
+re-created them from my working copies when publishing in 2026, so the commits
+before 14 Oct 2026, and the contribution squares for those months, show the
+order of the work rather than when each step happened. Some of my rewrites
+while publishing went further than they should have; each repo's
+PROVENANCE.md says what changed.
 
 **Projects**
 
