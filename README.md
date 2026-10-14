@@ -4,8 +4,9 @@ Senior consolidation accountant. I run the monthly and quarterly close for a
 group of 60+ legal entities under US GAAP, and I build tools for the parts of
 it that shouldn't need a person, plus the queue that gets the rest to one.
 
-Both projects were imported from an older private workspace in Oct 2026; commit
-dates are preserved, while public GitHub metadata starts at import.
+Both projects predate their public repos. I rebuilt their git histories when I
+published them in Oct 2026, so commit dates before then are approximate; each
+README says how.
 
 **Projects**
 
@@ -26,6 +27,10 @@ The numbers come from deterministic code with tests around it. Where there is
 a model, it triages and explains. Anything it asserts has to point at its
 source or it's dropped, and the policies that matter are enforced in code
 rather than left in a prompt.
+
+I build them with an AI coding assistant (Claude Code). The accounting design
+is mine and I review what it produces; most of the code is drafted by the
+assistant.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
 
