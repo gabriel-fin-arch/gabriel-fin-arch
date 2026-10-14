@@ -4,6 +4,9 @@ Senior consolidation accountant. I run the monthly and quarterly close for a
 group of 60+ legal entities under US GAAP, and I build tools for the parts of
 it that shouldn't need a person, plus the queue that gets the rest to one.
 
+Both projects were imported from an older private workspace in Oct 2026; commit
+dates are preserved, while public GitHub metadata starts at import.
+
 **Projects**
 
 - [intercompany-close-agent](https://github.com/gabriel-fin-arch/intercompany-close-agent):
