@@ -7,9 +7,10 @@ it that shouldn't need a person, plus the queue that gets the rest to one.
 Both projects predate their public repos; their git histories don't. I
 re-created them from my working copies when publishing in 2026, so the commits
 before 14 Oct 2026, and the contribution squares for those months, show the
-order of the work rather than when each step happened. Some of my rewrites
-while publishing went further than they should have; each repo's
-PROVENANCE.md says what changed.
+order of the work rather than when each step happened. The squares also count
+every rewritten version, so they overstate the number of commits about
+threefold. Some of my rewrites while publishing went further than they should
+have; each repo's PROVENANCE.md says what changed.
 
 **Projects**
 
