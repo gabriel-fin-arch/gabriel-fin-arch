@@ -28,13 +28,12 @@ I build them with Claude Code. The accounting design is mine, worked out in
 design notes I draft with the help of an AI chat; Claude Code writes the code
 and the tests, and I review everything it produces.
 
-**A note on dates.** I built both projects with Claude Code in August and
-September 2026 and had the assistant backdate their commits, mostly into 2025,
-at a pace meant to look like months of hand-written work; while publishing I
-rewrote the history to hide that, including an eval label and a contract date.
-That was wrong, and it's where the 2025 squares on my contribution graph come
-from. Each repo's PROVENANCE.md has the details; everything since 14 Oct 2026
-is as recorded.
+**A note on dates.** I first backdated these projects' commits into 2025 and
+rewrote the history to hide it. On 15 Oct 2026 I restored the real commit
+times from my Claude Code session logs: intercompany-close-agent was built in
+August 2026, revrec-contract-reviewer in September. Each repo's PROVENANCE.md
+has the details. Until GitHub recounts my contribution graph, its 2025 squares
+are those backdated commits.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
 
