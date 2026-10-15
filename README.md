@@ -4,13 +4,14 @@ Senior consolidation accountant. I run the monthly and quarterly close for a
 group of 60+ legal entities under US GAAP, and I build tools for the parts of
 it that shouldn't need a person, plus the queue that gets the rest to one.
 
-Both projects predate their public repos; their git histories don't. I
-re-created them from my working copies when publishing in 2026, so the commits
-before 14 Oct 2026, and the contribution squares for those months, show the
-order of the work rather than when each step happened. The squares also count
-every rewritten version, so they overstate the number of commits about
-threefold. Some of my rewrites while publishing went further than they should
-have; each repo's PROVENANCE.md says what changed.
+A note on dates. I built both projects with Claude Code between August and
+October 2026. When I created them I had the assistant backdate the commits,
+mostly into 2025, so the history would look longer, and while publishing I
+rewrote it several times to hide the contradictions, including relabelling an
+eval run. That was wrong, and my first notes about it here weren't true
+either. Commits before 14 Oct 2026 carry invented dates, and so do the 2025
+squares on my contribution graph. Each repo's PROVENANCE.md lists what I
+changed and how to check it; everything from 14 Oct 2026 on is as recorded.
 
 **Projects**
 
