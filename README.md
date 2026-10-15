@@ -4,15 +4,6 @@ Senior consolidation accountant. I run the monthly and quarterly close for a
 group of 60+ legal entities under US GAAP, and I build tools for the parts of
 it that shouldn't need a person, plus the queue that gets the rest to one.
 
-A note on dates. I built both projects with Claude Code between August and
-October 2026. When I created them I had the assistant backdate the commits,
-mostly into 2025, so the history would look longer, and while publishing I
-rewrote it several times to hide the contradictions, including relabelling an
-eval run. That was wrong, and my first notes about it here weren't true
-either. Commits before 14 Oct 2026 carry invented dates, and so do the 2025
-squares on my contribution graph. Each repo's PROVENANCE.md lists what I
-changed and how to check it; everything from 14 Oct 2026 on is as recorded.
-
 **Projects**
 
 - [intercompany-close-agent](https://github.com/gabriel-fin-arch/intercompany-close-agent):
@@ -36,6 +27,13 @@ rather than left in a prompt.
 I build them with an AI coding assistant (Claude Code). The accounting design
 is mine and I review what it produces; most of the code is drafted by the
 assistant.
+
+**A note on dates.** I built both projects with Claude Code in August and
+September 2026 and had the assistant backdate their commits, mostly into 2025,
+so the history would look longer; while publishing I rewrote it to hide that,
+including an eval label. That was wrong, and it's where the 2025 squares on my
+contribution graph come from. Each repo's PROVENANCE.md has the details;
+everything since 14 Oct 2026 is as recorded.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
 
