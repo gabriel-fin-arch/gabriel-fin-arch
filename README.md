@@ -1,8 +1,9 @@
 ### Gabriel S.
 
-Senior consolidation accountant. I run the monthly and quarterly close for a
-group of 60+ legal entities under US GAAP, and I build tools for the parts of
-it that shouldn't need a person, plus the queue that gets the rest to one.
+Senior consolidation accountant, open to remote roles in finance automation.
+I run the monthly and quarterly close for a group of 60+ legal entities under
+US GAAP, and I build tools that handle the parts that shouldn't need a person
+and send the rest to the right one.
 
 **Projects**
 
@@ -36,5 +37,3 @@ has the details. Until GitHub recounts my contribution graph, its 2025 squares
 are those backdated commits.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
-
-Open to remote roles in finance automation.
