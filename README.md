@@ -27,7 +27,9 @@ rather than left in a prompt.
 
 I build them with Claude Code. The accounting design is mine, worked out in
 design notes I draft with the help of an AI chat; Claude Code writes the code
-and the tests, and I review everything it produces.
+and the tests, and I review everything it produces. How a change gets made,
+who does what, and the rules the assistant works under:
+[HOW_I_WORK.md](HOW_I_WORK.md).
 
 **A note on dates.** I first backdated these projects' commits into 2025 and
 rewrote the history to hide it. On 15 Oct 2026 I restored the real commit

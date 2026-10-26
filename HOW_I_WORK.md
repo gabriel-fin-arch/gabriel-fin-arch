@@ -56,17 +56,17 @@ policy, the gold — what it says a contract requires —, the ERP export
 format, the API spend, merges and releases, and the GitHub settings
 (enabling Pages, permissions, branches).
 
-What I don't do: I don't write code or tests, and I don't touch the CI
-configuration except to approve it. I don't use git from the terminal
-either: my commits are me editing specific files when the content is my own
-judgment — like the gold — and I do merges and releases from the GitHub
-web. The commits of 20 October 2026 without a `Co-Authored-By` line are
-mine for that reason: the Harbourline and Tessellate gold corrections
+What I don't do: I don't write the projects' code or tests, and I don't
+touch the CI configuration except to approve it. Merges and releases I do
+from the GitHub web. The exception is my own commits of 20 October 2026,
+made with git on my PC: the Harbourline and Tessellate gold corrections
 ([revrec-contract-reviewer#27](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/27)
-and [#28](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/28))
-were accounting decisions, not code, and so were the sample results and the
-two releases. The PR descriptions of that day that don't follow the
-template I drafted myself, in a hurry.
+and [#28](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/28)),
+the fix that passes the preparer to the sample results, and the two
+releases. The gold is my accounting judgment. The code, the test and the
+rescored runs that came with it I wrote with an LLM's help, and those
+commits carry no `Co-Authored-By` line to say so. The PR descriptions of
+that day that don't follow the template I drafted myself, in a hurry.
 
 ## The rules the assistant works under
 
@@ -131,7 +131,7 @@ template I drafted myself, in a hurry.
 - **What makes me ask for a change**: a figure that doesn't tie, an
   accounting judgment badly reasoned, or docs that promise something the
   code doesn't do. A real example: the gold corrections for Harbourline and
-  Tessellate, which I decided and wrote myself — they show in
+  Tessellate, which I decided and committed myself — they show in
   [revrec-contract-reviewer#27](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/27)
   and [#28](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/28).
 - **What I leave to CI**: style and formatting (the pre-commit hooks),
