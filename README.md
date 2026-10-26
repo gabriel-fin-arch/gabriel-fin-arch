@@ -33,7 +33,7 @@ and the tests, and I review everything it produces.
 rewrote the history to hide it. On 15 Oct 2026 I restored the real commit
 times from my Claude Code session logs: intercompany-close-agent was built in
 August 2026, revrec-contract-reviewer in September. Each repo's PROVENANCE.md
-has the details. Until GitHub recounts my contribution graph, its 2025 squares
-are those backdated commits.
+has the details. GitHub has since recounted my contribution graph: it shows no
+commits in 2025, only the rebuilt history and the later work in 2026.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
