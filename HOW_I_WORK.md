@@ -20,6 +20,9 @@ history. This page links to them rather than repeating them.
    what the issue asked, what the assistant drafted, what I changed or
    rejected in review, and how it was verified.
    Example: [revrec-contract-reviewer#20](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/20).
+   The exception is dependency updates: once a month Dependabot opens one
+   pull request that updates `uv.lock`, with no issue and its own
+   description. CI runs on it, and I review and merge it like any other.
 3. **CI** on every PR:
    - the pre-commit hooks;
    - mypy;
