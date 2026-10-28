@@ -33,9 +33,17 @@ history. This page links to them rather than repeating them.
    
    ([intercompany](https://github.com/gabriel-fin-arch/intercompany-close-agent/blob/main/.github/workflows/ci.yml),
    [revrec](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/blob/main/.github/workflows/ci.yml))
-4. **My review**, then **my merge**, with a merge commit. Then I fill in
-   "What I changed or rejected in review", including "nothing" when that's
-   the answer.
+4. **My review before any merge**, then **my merge**, with a merge commit.
+   Then I fill in "What I changed or rejected in review", including "nothing"
+   when that's the answer.
+
+   On 27 October 2026 I broke this rule: I asked Claude Code to merge five
+   pull requests and publish the two v0.4.0 releases before I had reviewed
+   them (intercompany #52 and #53, revrec #55 and #56, and profile #8).
+   I reviewed them after the merge, on 28 October — the review comments are
+   on each of those PRs. From now on no merge without my review first. If I
+   ever delegate a merge again, the PR will say so at the time, not in a
+   comment afterwards.
 
 ## Who does what
 
@@ -61,7 +69,20 @@ format, the API spend, merges and releases, and the GitHub settings
 
 What I don't do: I don't write the projects' code or tests, and I don't
 touch the CI configuration except to approve it. Merges and releases I do
-from the GitHub web. The exception is my own commits of 20 October 2026,
+from the GitHub web — except the two v0.4.0 releases of 27 October 2026,
+which Claude Code merged and published at my request before my review.
+That's the batch covered in step 4 above, and it doesn't repeat.
+
+One exception to "I don't write code": `recalc/`. The independent
+recalculation files (`recalc/ic_recalc.sql` in intercompany,
+`recalc/rr_recalc.xlsx` in revrec, and their READMEs) I write myself, line
+by line. An LLM may explain SQL or spreadsheet syntax to me in a separate
+chat, with made-up examples, and it may review my pull requests in GitHub
+comments; it does not write lines in these files. That's why my commits in
+`recalc/` carry no `Co-Authored-By` line — none applies. If that ever
+changes, the commit says so.
+
+The exception is my own commits of 20 October 2026,
 made with git on my PC: the Harbourline and Tessellate gold corrections
 ([revrec-contract-reviewer#27](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/27)
 and [#28](https://github.com/gabriel-fin-arch/revrec-contract-reviewer/pull/28)),
