@@ -31,11 +31,11 @@ and the tests, and I review everything it produces. How a change gets made,
 who does what, and the rules the assistant works under:
 [HOW_I_WORK.md](HOW_I_WORK.md).
 
-**A note on dates.** I first backdated these projects' commits into 2025 and
-rewrote the history to hide it. On 15 Oct 2026 I restored the real commit
-times from my Claude Code session logs: intercompany-close-agent was built in
-August 2026, revrec-contract-reviewer in September. Each repo's PROVENANCE.md
-has the details. GitHub has since recounted my contribution graph: it shows no
-commits in 2025, only the rebuilt history and the later work in 2026.
+**A note on dates.** I backdated these projects' commits on purpose, into
+2025–early 2026, to make the work look like months of hand-written effort. I
+restored the real commit times on 15 October 2026 and wrote the whole thing
+up as a control remediation:
+[REMEDIATION.md](REMEDIATION.md).
+Each repo's own record is its PROVENANCE.md.
 
 ACCA (part-qualified) · MSc Finance, Erasmus University Rotterdam · FMVA
