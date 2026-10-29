@@ -58,8 +58,8 @@ contribution graph shows no commits in 2025 — GitHub recounted it on
   in or not, at github.com/gabriel-fin-arch/<repo>/rules.
 - The authorship rule for `recalc/`: those files I write myself, with no
   Co-Authored-By line; it is stated in HOW_I_WORK and in each recalc README.
-- A provenance check in CI over all new history is being added so any
-  future backdating fails the build.
+- A provenance check in CI over all new history fails the build on any
+  backdating or rewrite, and `main` now requires it to pass.
 
 ## Visible artifacts, explained
 
@@ -68,9 +68,12 @@ contribution graph shows no commits in 2025 — GitHub recounted it on
   session log, and they show the real time.
 - 69 commits of intercompany-close-agent fall on 5 August 2026. The project
   was built that day; most of it, in fact.
-- The architecture decision records are dated 23 October 2026 because that
-  is when I wrote them, from my design notes of August and September; the
-  decision dates in them are the notes' dates.
+- The architecture decision records are dated 23 October 2026 because
+  that is when they were written down: Claude Code drafted all seven in
+  one commit from sketches I wrote, and "Accepted" on each is that day,
+  not the day the decision was taken — the decisions themselves come
+  from my design notes of August and September. The ADR index says
+  exactly this at the top.
 - Four releases of revrec-contract-reviewer in eight days, 20 to
   27 October 2026: the last stretch of building, after the real dates were
   back. That is simply the pace.
