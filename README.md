@@ -6,7 +6,7 @@ I run the monthly and quarterly close for a group of 60+ legal entities under US
 I work the way audit taught me: AI builds, I verify. Both projects are built
 with Claude Code, and I recalculate what they publish by hand — SQL in one,
 Excel in the other — so nothing rests on the tool's own say-so.
-How a change gets made: [HOW_I_WORK](HOW_I_WORK.md).
+How a change gets made: [HOW_I_WORK](HOW_I_WORK.md). The close on screen, 4½ minutes, no audio: [Intercompany close agent — reviewed, not trusted](media/intercompany-close-agent-reviewed-not-trusted.mp4).
 
 **Projects**
 
