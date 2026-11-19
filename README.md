@@ -1,7 +1,7 @@
 ### Gabriel S.
 
 Senior consolidation accountant, open to remote roles in finance automation.
-I run the monthly and quarterly close for a group of 60+ legal entities under US GAAP.
+I run the monthly and quarterly close for a group of about 50 legal entities under US GAAP.
 
 I work the way audit taught me: AI builds, I verify. Both projects are built
 with Claude Code, and I recalculate what they publish by hand — SQL in one,
